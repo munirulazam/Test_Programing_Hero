@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+<style>
+
+#colorful{
+    background-color: black;
+    color: yellowgreen;
+}
+
+</style>
+
+<script>
+    function myFunction() {
+      document.getElementById("change-color").style.color="red";
+    }
+    </script>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Repository Test</title>
 </head>
-<body>
-    <h1>Github Github</h1>
-    <h3>some textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome text</h3>
 
+
+<body>
+    <h1 id="change-color">Github Github</h1>
+    <h3 id= "colorful">some textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome text</h3>
+<br>
     <p>some more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more textsome more text</p>
 
-    <input type="button" id = "nothing" name = "doesn't do anything" value="doesn't do anything"> 
+    <input type="button" onclick="myFunction()" id = "nothing" name = "doesn't do anything" value="doesn't do anything"> 
 </body>
 </html>
